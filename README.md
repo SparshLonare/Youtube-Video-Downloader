@@ -11,13 +11,12 @@ A simple Flask web application that lets you download the **highest-quality** MP
 ---
 
 ## Project Structure
-youtube-video-downloader/
-├── app.py
-├── templates/
-│   └── index.html
-├── static/
-│   └── styles.css
-└── downloads/
+
+- app.py - Flask server + download endpoint
+- templates/index.html - Frontend UI
+- static/styles.css - Frontend styling
+- downloads/ - Output folder for downloaded videos
+
 ---
 
 ## Prerequisites
@@ -92,5 +91,3 @@ pip install flask yt-dlp
 
 ---
 
-## License
-MIT (or use your preferred license).
