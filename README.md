@@ -11,11 +11,13 @@ A simple Flask web application that lets you download the **highest-quality** MP
 ---
 
 ## Project Structure
-- `app.py` - Flask server + download endpoint
-- `templates/index.html` - Frontend UI
-- `static/styles.css` - Frontend styling
-- `downloads/` - Output folder for downloaded videos
-
+youtube-video-downloader/
+├── app.py
+├── templates/
+│   └── index.html
+├── static/
+│   └── styles.css
+└── downloads/
 ---
 
 ## Prerequisites
